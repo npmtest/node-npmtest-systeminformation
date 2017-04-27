@@ -1,6 +1,6 @@
 # npmtest-systeminformation
 
-#### test coverage for  [systeminformation (v3.17.0)](https://github.com/sebhildebrandt/systeminformation)  [![npm package](https://img.shields.io/npm/v/npmtest-systeminformation.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-systeminformation) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-systeminformation.svg)](https://travis-ci.org/npmtest/node-npmtest-systeminformation)
+#### basic test coverage for  [systeminformation (v3.17.2)](https://github.com/sebhildebrandt/systeminformation)  [![npm package](https://img.shields.io/npm/v/npmtest-systeminformation.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-systeminformation) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-systeminformation.svg)](https://travis-ci.org/npmtest/node-npmtest-systeminformation)
 
 #### Simple system and OS information library
 
@@ -10,7 +10,7 @@
 |--:|:--|
 | coverage : | [![istanbul-coverage](https://npmtest.github.io/node-npmtest-systeminformation/build/coverage.badge.svg)](https://npmtest.github.io/node-npmtest-systeminformation/build/coverage.html/index.html)|
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-systeminformation/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-systeminformation/build/test-report.html)|
-| build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-systeminformation/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-systeminformation/tree/gh-pages/build)|
+| test-server-github : | [![github.com test-server](https://npmtest.github.io/node-npmtest-systeminformation/GitHub-Mark-32px.png)](https://npmtest.github.io/node-npmtest-systeminformation/build/app/index.html) | | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-systeminformation/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-systeminformation/tree/gh-pages/build)|
 
 - [https://npmtest.github.io/node-npmtest-systeminformation/build/coverage.html/index.html](https://npmtest.github.io/node-npmtest-systeminformation/build/coverage.html/index.html)
 
@@ -47,13 +47,13 @@
     "devDependencies": {},
     "directories": {},
     "dist": {
-        "shasum": "d8010335d5ba4a10cf9800b1b8ab23b5f8a613fd",
-        "tarball": "https://registry.npmjs.org/systeminformation/-/systeminformation-3.17.0.tgz"
+        "shasum": "a3df4403a681f73090bcad3d7ff66984e8f5fc0a",
+        "tarball": "https://registry.npmjs.org/systeminformation/-/systeminformation-3.17.2.tgz"
     },
     "engines": {
         "node": ">=4.0.0"
     },
-    "gitHead": "07c772a1479023984098bc80a42b29545ed99e94",
+    "gitHead": "dc1604cb5690a6fabd4656d1d6f69f1f87eeaeaf",
     "gypfile": true,
     "homepage": "https://github.com/sebhildebrandt/systeminformation",
     "keywords": [
@@ -109,7 +109,8 @@
         "install": "node-gyp rebuild",
         "test": "echo \"Error: no test specified\" && exit 1"
     },
-    "version": "3.17.0"
+    "version": "3.17.2",
+    "bin": {}
 }
 ```
 
